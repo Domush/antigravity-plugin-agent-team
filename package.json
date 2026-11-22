@@ -1,0 +1,23 @@
+{
+  "name": "antigravity-plugin-agent-team",
+  "version": "1.0.0",
+  "description": "Project-agnostic, multi-disciplinary autonomous agent team plugin for Antigravity",
+  "main": "scripts/audit-gate.js",
+  "scripts": {
+    "gate": "node scripts/audit-gate.js",
+    "test": "node scripts/audit-gate.js -f \"rules/AGENTS.md,rules/coding-standards.md,rules/agent-governance-standards.md,scripts/audit-gate.js\""
+  },
+  "keywords": [
+    "antigravity",
+    "plugin",
+    "agent-team",
+    "multi-agent",
+    "orchestration",
+    "software-engineering",
+    "3d-modeling",
+    "adversarial-audit",
+    "quality-assurance"
+  ],
+  "author": "Phillip Webber <github@webbsense.com>",
+  "license": "MIT"
+}

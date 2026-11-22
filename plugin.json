@@ -1,0 +1,21 @@
+﻿{
+  "name": "agent-team",
+  "displayName": "Autonomous Agent Team",
+  "description": "Multi-disciplinary agent team orchestrating planning, full-stack software development, 3D modeling, adversarial auditing, testing, and QA across any codebase.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Phillip Webber",
+    "url": "https://github.com/Domush"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Domush/antigravity-plugin-agent-team.git"
+  },
+  "homepage": "https://github.com/Domush/antigravity-plugin-agent-team#readme",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Plan and implement a new feature using the agent team",
+    "Perform an adversarial code audit on recent changes",
+    "Generate and validate a 3D asset with clean topology and LODs"
+  ]
+}
