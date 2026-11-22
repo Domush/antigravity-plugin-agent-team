@@ -29,8 +29,13 @@ A project-agnostic, multi-disciplinary agent team plugin for Antigravity. It coo
 
 ```text
 antigravity-plugin-agent-team/
+├── .github/workflows/
+│   └── publish.yml             # Automated npm publish & GitHub release
+├── bin/
+│   └── cli.js                  # CLI & npx installation script
 ├── plugin.json                 # Antigravity plugin manifest
-├── package.json                # Project and test configuration
+├── package.json                # Project, test, and npm package configuration
+├── CHANGELOG.md                # Release history and feature notes
 ├── assets/
 │   └── logo.svg                # High-contrast plugin icon
 ├── agents/                     # Subagent persona definitions
@@ -56,22 +61,36 @@ antigravity-plugin-agent-team/
     └── audit-gate.ps1
 ```
 
-## Global Installation
+## Quick Installation via npx
 
-To install this plugin globally in your Antigravity environment:
+Install globally into Antigravity with a single command:
 
 ```bash
-# Clone or copy into your global plugins directory:
-mkdir -p ~/.gemini/config/plugins
-cp -r /path/to/antigravity-plugin-agent-team ~/.gemini/config/plugins/agent-team
+npx antigravity-plugin-agent-team install
 ```
 
-Once installed, the plugin and its agents will automatically be discovered by Antigravity across all workspaces.
+Or install scoped to your current workspace:
+
+```bash
+npx antigravity-plugin-agent-team install --workspace
+```
+
+### CLI Commands
+
+```bash
+# Check installation status
+npx antigravity-plugin-agent-team status
+
+# Uninstall the plugin
+npx antigravity-plugin-agent-team uninstall
+```
 
 ## Verification Gate
 
 Run the deterministic static audit gate against any set of files:
 
 ```bash
+npm test
+# Or directly:
 node scripts/audit-gate.js -f "path/to/file1.ext,path/to/file2.ext"
 ```
