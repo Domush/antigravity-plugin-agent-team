@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #020617;
+    color: #f8fafc;
+    font-family: 'Inter', sans-serif;
+  }
+
+  code, pre, kbd {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Glowing utilities */
+.glow-cyan {
+  box-shadow: 0 0 25px -4px rgba(0, 210, 255, 0.4);
+}
+
+.glow-purple {
+  box-shadow: 0 0 25px -4px rgba(123, 44, 191, 0.45);
+}
+
+.glow-magenta {
+  box-shadow: 0 0 25px -4px rgba(247, 37, 133, 0.4);
+}
+
+.glow-sky {
+  box-shadow: 0 0 25px -4px rgba(76, 201, 240, 0.4);
+}
+
+/* Glassmorphism panel styling */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(0, 210, 255, 0.25);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Badge and gradient text */
+.gradient-text-brand {
+  background: linear-gradient(135deg, #00D2FF 0%, #7B2CBF 50%, #F72585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-cyan {
+  background: linear-gradient(135deg, #00D2FF 0%, #4CC9F0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-border-brand {
+  position: relative;
+}
+
+.gradient-border-brand::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(0, 210, 255, 0.6), rgba(123, 44, 191, 0.6), rgba(247, 37, 133, 0.6));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
