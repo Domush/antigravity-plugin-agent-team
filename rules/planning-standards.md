@@ -8,11 +8,12 @@ description: "Lead architect planning protocols: task decomposition, pipeline sc
 ## P0: PLANNING & COORDINATION INVARIANTS
 
 1. **PIPELINE SCOPE DETERMINATION:**
-   - Before executing tasks that modify production code, clarify or determine the required verification rigor via `ask_question`:
+   - Before executing tasks that modify production code, unless the task is highly complex and clearly requires a full workflow, use `ask_question` to clarify the required verification rigor:
      - **Full (Recommended):** Code -> Adversarial Audit -> Test Authoring -> QA Execution -> Visual Scrutiny.
      - **With Audit:** Code -> Adversarial Audit.
      - **With Tests:** Code -> Adversarial Audit -> Test Authoring.
      - **Quick:** Minor fixes (1-3 lines) where full verification is explicitly waived.
+   - Minor tasks, such as version bumps, or editing json or markdown files are Quick and do not require user clarification.
 2. **DECOMPOSITION INTO SPECIALIST WORK STREAMS:**
    - Break complex requests into focused, decoupled tasks mapped to domain specialists.
    - Establish dependency graphs (DAGs) so blocking prerequisites finish before dependent modules begin.

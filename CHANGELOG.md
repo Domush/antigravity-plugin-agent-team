@@ -2,6 +2,12 @@
 
 All notable changes to `antigravity-plugin-agent-team` will be documented in this file.
 
+## [1.0.2] - 2026-11-27
+
+### Improvements
+- **Refined Agent & Planning Workflows**: Updated agent definitions and planning standards to streamline scope determination for quick tasks and clarify interactive scope selection for larger features.
+- **Repository Agent Guidelines**: Added root repository agent guidelines (`AGENTS.md`).
+
 ## [1.0.1] - 2026-11-27
 
 ### Improvements & Fixes
