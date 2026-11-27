@@ -1,4 +1,4 @@
-﻿---
+---
 trigger: model_decision
 description: "Meta-governance taxonomy, subagent lifecycle management, permission boundaries, and pipeline separation of concerns for the agent team."
 ---

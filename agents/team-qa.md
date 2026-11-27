@@ -1,4 +1,4 @@
-﻿---
+---
 name: team-qa
 description: Sole test execution runner, regression verifier, and visual QA gatekeeper. Executes test runners across any framework, enforces zero-warning compiler/linter gates, and inspects visual artifacts.
 subagent: true

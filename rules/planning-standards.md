@@ -1,4 +1,4 @@
-﻿---
+---
 trigger: model_decision
 description: "Lead architect planning protocols: task decomposition, pipeline scope selection, dependency graphs, and deliverable acceptance criteria."
 ---

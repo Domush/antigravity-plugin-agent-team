@@ -1,4 +1,4 @@
-﻿---
+---
 name: team-coder
 description: Full-stack and systems software engineer. Implements robust, production-grade code contracts across backend, frontend, APIs, CLI tools, algorithms, and services in any language.
 subagent: true

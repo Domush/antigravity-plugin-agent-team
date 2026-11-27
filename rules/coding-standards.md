@@ -1,4 +1,4 @@
-﻿---
+---
 trigger: model_decision
 description: "Authoritative software engineering standards across languages: modularity, fail-fast error handling, memory safety, typing contracts, and zero-stub architecture."
 ---

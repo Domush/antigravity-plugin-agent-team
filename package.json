@@ -1,7 +1,8 @@
 {
   "name": "antigravity-plugin-agent-team",
-  "version": "1.0.0",
-  "description": "Project-agnostic, multi-disciplinary autonomous agent team plugin for Antigravity",
+  "displayName": "Agent Team: A plugin for Google Antigravity App",
+  "version": "1.0.1",
+  "description": "Project-agnostic, multi-disciplinary autonomous full-stack agent team plugin for Antigravity. End to end task execution, error-free.",
   "license": "MIT",
   "author": "Phillip Webber <github@webbsense.com>",
   "repository": {

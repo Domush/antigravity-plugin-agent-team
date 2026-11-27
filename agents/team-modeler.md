@@ -1,4 +1,4 @@
-﻿---
+---
 name: team-modeler
 description: 3D modeling, mesh topology, rigging, and asset specialist. Authors clean manifold geometry, UV unwraps, PBR materials, LODs, collision hulls, and automated Blender/DCC headless pipelines.
 subagent: true

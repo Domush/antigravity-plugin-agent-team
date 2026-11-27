@@ -1,4 +1,4 @@
-﻿---
+---
 trigger: model_decision
 description: "Authoritative test engineering standards: unit, integration, and E2E testing, negative-path coverage, boundary assertions, and test isolation."
 ---

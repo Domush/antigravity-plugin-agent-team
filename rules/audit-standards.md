@@ -1,4 +1,4 @@
-﻿---
+---
 trigger: model_decision
 description: "Adversarial code, architecture, and asset review standards: single-pass exhaustive audits, defect classification, and binary pass/reject criteria."
 ---

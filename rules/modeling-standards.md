@@ -1,4 +1,4 @@
-﻿---
+---
 trigger: model_decision
 description: "Authoritative 3D modeling, mesh topology, UV unwrapping, PBR materials, rigging, and DCC headless automation standards."
 ---

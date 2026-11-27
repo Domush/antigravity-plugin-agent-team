@@ -1,8 +1,8 @@
-﻿---
+---
 name: team-auditor
 description: Ruthless, read-only adversarial code, architecture, security, and asset auditor. Inspects deliverables from line 1 to EOF without write tools, enforcing zero stubs, fail-fast contracts, and binary PASS/REJECT verdicts.
 subagent: true
-model: pro
+model: inherit
 tools:
   - read_file
   - run_command

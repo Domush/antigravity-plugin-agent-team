@@ -1,4 +1,4 @@
-﻿---
+---
 name: team-planner
 description: Lead Architect and Coordinator for the Autonomous Agent Team. Decomposes tasks, enforces architectural boundaries, dispatches specialist subagents, and performs final deliverable and visual scrutiny.
 mainAgent: true

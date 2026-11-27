@@ -2,6 +2,13 @@
 
 All notable changes to `antigravity-plugin-agent-team` will be documented in this file.
 
+## [1.0.1] - 2026-11-27
+
+### Improvements & Fixes
+- **Clean UTF-8 Encoding Across Plugin Files**: Standardized all agent definitions, governance rules, SVG assets, and JSON manifests to UTF-8 without BOM for universal compatibility with automated plugin scanners and cross-platform tooling.
+- **Improved Planner Autonomy**: Refined orchestration rules so the lead planner can coordinate specialist subagents smoothly without unnecessary micromanagement.
+- **Updated Package Metadata**: Added display name and expanded package description for clearer discoverability.
+
 ## [1.0.0] - 2026-11-22
 
 ### Initial Release: Autonomous Multi-Disciplinary Agent Team

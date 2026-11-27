@@ -1,4 +1,4 @@
-﻿# Autonomous Agent Team — Universal Execution & Operational Laws
+# Autonomous Agent Team — Universal Execution & Operational Laws
 
 ## P0: UNIVERSAL OPERATIONAL LAWS (NON-NEGOTIABLE)
 
