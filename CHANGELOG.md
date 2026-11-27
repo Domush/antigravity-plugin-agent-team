@@ -2,6 +2,12 @@
 
 All notable changes to `antigravity-plugin-agent-team` will be documented in this file.
 
+## [1.0.4] - 2026-11-27
+
+### Improvements
+- **Automated Release Notes**: Updated the GitHub Actions release workflow to automatically extract and publish the matching `CHANGELOG.md` entry for each tagged release.
+- **Agent Definition Cleanup**: Streamlined formatting and whitespace across all agent persona files.
+
 ## [1.0.3] - 2026-11-27
 
 ### Improvements
