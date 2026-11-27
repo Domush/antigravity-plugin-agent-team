@@ -2,6 +2,11 @@
 
 All notable changes to `antigravity-plugin-agent-team` will be documented in this file.
 
+## [1.0.3] - 2026-11-27
+
+### Improvements
+- **Release Pipeline Update**: Streamlined the automated npm publishing workflow configuration.
+
 ## [1.0.2] - 2026-11-27
 
 ### Improvements

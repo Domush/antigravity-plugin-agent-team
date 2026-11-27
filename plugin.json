@@ -2,7 +2,7 @@
   "name": "agent-team",
   "displayName": "Autonomous Agent Team",
   "description": "Multi-disciplinary agent team orchestrating planning, full-stack software development, 3D modeling, adversarial auditing, testing, and QA across any codebase.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Phillip Webber",
     "url": "https://github.com/Domush"
